@@ -8,7 +8,7 @@ public class ArithmeticEx4 {
         int postIncrement = 5;
 
         System.out.println("Initial value:" + postIncrement);
-        int result = 10 + postIncrement++;
+        int result = 10 + postIncrement;
 
         System.out.println("result(10+ postIncrement++)=" + result);
     }
